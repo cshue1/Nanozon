@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+h1.nanozon2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+div.nanozon3, h2.nanozon2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+h1.nanozon, p.nanozon2, font.nanozon2, td.nanozon2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight : bold;
+    font-size: 50px;
+}
+div.nanozon2, table.nanozon2, td.nanozon2, a.nanozon2, div.nanozon3 {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight : bold;
+    font-size: 30px;
+
+}
+div.nanozon, table.nanozon, td.nanozon, a.nanozon,p.nanozon {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+
+}
+a.nanozon3, p.nanozon3,input.text {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+select.results {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding : 5px;
+    background-color : white;
+    border: 2px solid black
+}
+input.button2 {
+    font-family: 'Oswald', sans-serif;
+    padding: 8px;
+    background-color : white;
+    font-weight : bold;
+    border: 2px solid black
+}
+input.button, button.button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    background-color : white;
+    font-weight : bold;
+    border: 2px solid black
+}
+span.error {
+    color : red;
+    size : 8pt;
+}
+table.results {
+    border-collapse: collapse;
+}
+th.results, td.results {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+    //border-bottom: 1px solid black
+}
+
+th.results, td.results {
+    //background-color: orange;
+    color: black;
+}
+span.error {
+    color : red;
+    size : '2pt';
+}
+.thumbnail{
+    position: relative;
+    z-index: 0;
+}
+
+.thumbnail:hover{
+    background-color: transparent;
+    z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    left: -1000px;
+    border: 1px dashed gray;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+    border-width: 0;
+    padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+    visibility: visible;
+    top: 0;
+    left: 60px; /*position where enlarged image should offset horizontally */
+
+}

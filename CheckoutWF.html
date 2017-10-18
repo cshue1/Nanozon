@@ -1,0 +1,220 @@
+<!doctype html>
+    <html>
+        <!--   include 'NZ_SearchBar.php';    -->
+        <div align="left" style = "padding-right:1cm;">
+            <td>
+                <font size="+2">
+                    <b>
+                        Total Price:
+                    </b>
+                </font>
+            </td>
+            <td>
+                [insert total price here]
+            </td>
+        </div>
+        <br>
+        <hr width = "50%" align="left" color=#FFA500>
+        <table>
+            <td valign="top">
+                <h1>Your Order</h1>
+                <br> <br>
+                <table>
+                    <tr>
+                        <td style = "width:120px;">
+                            <center><img src="1.jpg" style="width:100px;height:100px;"></center>
+                        </td>
+                        <td style = "width:150px;">
+                            <center>Item 1</center>
+                        </td>
+                        <td style = "width:500px;">
+                            This is the description for Item number 1 and will be fetched from the SQL table based on the item_id of item 1.
+                        </td>
+                        <td style = "width:110px;">
+                            <center>
+                                $10.00
+                            </center>
+                            <font style="color:#808080;">
+                                Qty:
+                                <br>
+                                Price:
+                                <br>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = "width:120px;">
+                            <center><img src="2.jpg" style="width:100px;height:100px;"></center>
+                        </td>
+                        <td style = "width:150px;">
+                            <center>Item 2</center>
+                        </td>
+                        <td style = "width:500px;">
+                            This is the description for Item number 2 and will be fetched from the SQL table based on the item_id of item 2.
+                        </td>
+                        <td style = "width:110px;">
+                            <center>
+                                $20.00
+                            </center>
+                            <font style="color:#808080;">
+                                Qty:
+                                <br>
+                                Price:
+                                <br>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style = "width:120px;">
+                            <center><img src="3.jpg" style="width:100px;height:100px;"></center>
+                        </td>
+                        <td style = "width:150px;">
+                            <center>Item 3</center>
+                        </td>
+                        <td style = "width:500px;">
+                            This is the description for Item number 3 and will be fetched from the SQL table based on the item_id of item 3.
+                        </td>
+                        <td style = "width:110px;">
+                            <center>
+                                $30.00
+                            </center>
+                            <font style="color:#808080;">
+                                Qty:
+                                <br>
+                                Price:
+                                <br>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td valign="top"width = "50%" style="padding-left:15px;">
+                <form method="post" align="justify" action="NZ_ConfirmPageWF.html">
+                    <h1>
+                        Billing Address
+                    </h1>
+                    First Name:
+                    <input type="text" name="firstname" style="width:295px;height:25px;">
+                    <br><br>
+                    Last Name:
+                    <input type="text" name="lastname" style="width:295px;height:25px;">
+                    <br><br><br>
+                    Street Address:
+                    <input type="text" name="address" style="width:400px;height:25px;">
+                    <br><br>
+                    City:
+                    <input type="text" name="city" style="width:295px;height:25px;">
+                    &nbsp&nbsp&nbsp
+                    State:
+                    <select name="state" size="1" style="height:25px;">
+                        <option value = "---Select State---">---Select State---</option>
+                        <option value = "Alabama">Alabama</option>  <option value = "Alaska">Alaska</option>
+                        <option value = "Arizona">Arizona</option>  <option value = "Arkansas">Arkansas</option>
+                        <option value = "California">California</option>    <option value = "Colorado">Colorado</option>
+                        <option value = "Connecticut">Connecticut</option>  <option value = "Delaware">Delaware</option>
+                        <option value = "Florida">Florida</option>  <option value = "Georgia">Georgia</option>
+                        <option value = "Hawaii">Hawaii</option>    <option value = "Idaho">Idaho</option>
+                        <option value = "Illinois">Illinois</option>    <option value = "Indiana">Indiana</option>
+                        <option value = "Iowa">Iowa</option>    <option value = "Kansas">Kansas</option>
+                        <option value = "Kentucky">Kentucky</option>    <option value = "Louisiana">Louisiana</option>
+                        <option value = "Maine">Maine</option>  <option value = "Maryland">Maryland</option>
+                        <option value = "Massachusetts">Massachusetts</option>  <option value = "Michigan">Michigan</option>
+                        <option value = "Minnesota">Minnesota</option>  <option value = "Mississippi">Mississippi</option>
+                        <option value = "Missouri">Missouri</option>    <option value = "Montana">Montana</option>
+                        <option value = "Nebraska">Nebraska</option>    <option value = "Nevada">Nevada</option>
+                        <option value = "New Hampshire">New Hampshire</option>  <option value = "New Jersey">New Jersey</option>
+                        <option value = "New Mexico">New Mexico</option>    <option value = "New York">New York</option>
+                        <option value = "North Carolina">North Carolina</option>    <option value = "North Dakota">North Dakota</option>
+                        <option value = "Ohio">Ohio</option>    <option value = "Oklahoma">Oklahoma</option>
+                        <option value = "Oregon">Oregon</option>    <option value = "Pennsylvania">Pennsylvania</option>
+                        <option value = "Rhode Island">Rhode Island</option>    <option value = "South Carolina">South Carolina</option>
+                        <option value = "South Dakota">South Dakota</option>    <option value = "Tennessee">Tennessee</option>
+                        <option value = "Texas">Texas</option>  <option value = "Utah">Utah</option>
+                        <option value = "Vermont">Vermont</option>  <option value = "Virginia">Virginia</option>
+                        <option value = "Washington">Washington</option>    <option value = "West Virgina">West Virgina</option>
+                        <option value = "Wisconsin">Wisconsin</option>  <option value = "Wyoming">Wyoming</option>
+                    </select>
+                    <br><br>
+                    Zip Code:
+                    <input type="text" name="zip" style="width:100px;height:25px;">
+                    &nbsp&nbsp&nbsp
+                    Country:
+                    <input type="text" name="country" style="width:295px;height:25px;">
+                    <h1>
+                        Payment Information
+                    </h1>
+                    Provider:
+                    <select name="CCProvider" size="1">
+                        <option value = "Select Provider">Select Provider</option>
+                        <option value = "AMEX">AMEX</option>
+                        <option value = "Capital One">Capital One</option>
+                        <option value = "Chase">Chase</option>
+                        <option value = "Discover">Discover</option>
+                        <option value = "Visa">Visa</option>
+                    </select>
+                    Credit Card Number:
+                    <input type="text" name="ccnum" style="width:250px;height:25px;">
+                    <br><br>
+                    Expiration Date:
+                    <select name="month" size="1">
+                        <option value = "MM">MM</option>
+                        <option value = "01">01</option>
+                        <option value = "02">02</option>
+                        <option value = "03">03</option>
+                        <option value = "04">04</option>
+                        <option value = "05">05</option>
+                        <option value = "06">06</option>
+                        <option value = "07">07</option>
+                        <option value = "08">08</option>
+                        <option value = "09">09</option>
+                        <option value = "10">10</option>
+                        <option value = "11">11</option>
+                        <option value = "12">12</option>
+                    </select>
+                    /
+                    <select name="year" size="1">
+                        <option value = "YYYY">YYYY</option>
+                        <option value = "2016">2016</option>
+                        <option value = "2017">2017</option>
+                        <option value = "2018">2018</option>
+                        <option value = "2019">2019</option>
+                        <option value = "2020">2020</option>
+                        <option value = "2021">2021</option>
+                        <option value = "2022">2022</option>
+                        <option value = "2023">2023</option>
+                        <option value = "2024">2024</option>
+                        <option value = "2025">2025</option>
+                        <option value = "2026">2026</option>
+                        <option value = "2027">2027</option>
+                        <option value = "2028">2028</option>
+                        <option value = "2029">2029</option>
+                        <option value = "2030">2030</option>
+                    </select>
+                    &nbsp&nbsp&nbsp
+                    Security Code:
+                    <input type="scnum" name="scnum" style="width:100px;height:25px;">
+                    <br><br>
+                    <button style = "background-color:#FFA500;height:50px;width:150px">
+                        <font size="+1.5">
+                            <b>
+                                Pay
+                            </b>
+                        </font>
+                    </button>
+                </form>
+                <form action="CartWF.html">
+                    <button style = "background-color:#FFA500;height:50px;width:150px" type="submit">
+                        <font size="+1.5">
+                            <b>
+                                Revise Order
+                            </b>
+                        </font>
+                    </button>
+                </form>
+            </td>
+        </table>
+        
+        
+        
+
+    </html>
